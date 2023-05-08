@@ -18,7 +18,12 @@ header {
     justify-content: center;
     align-items: center;
     color: #fff;
-
+    font-size: 3rem;
+    text-align: center;
+    line-height: 160%;
+    padding: 10px;
+    z-index: 1;
+    flex-basis: 20%;
 }
 
 header::after {
@@ -30,14 +35,6 @@ header::after {
     height: 100%;
 }
 
-header h1 {
-    font-size: 3rem;
-    text-align: center;
-    line-height: 160%;
-    padding: 10px;
-    z-index: 1;
-    flex-basis: 20%;
-}
 
 header a {
     color: inherit;
