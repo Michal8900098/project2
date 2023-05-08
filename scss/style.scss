@@ -18,6 +18,7 @@ header {
     justify-content: center;
     align-items: center;
     color: #fff;
+
 }
 
 header::after {
@@ -52,10 +53,11 @@ header a {
     justify-content: center;
     align-items: center;
     transition-duration: .5s;
+    background-color: $bg-color;
 }
 
 header a:hover {
-    background-color: #730202;
+    background-color: $bg-hover-color;
 }
 
 h2 {
